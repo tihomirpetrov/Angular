@@ -1,4 +1,4 @@
-class Melon {
+abstract class Melon {
     weight: number;
     melonSort: string;
 
