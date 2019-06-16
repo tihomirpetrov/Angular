@@ -19,4 +19,4 @@ class Request11 {
 
 let myData = new Request11('GET', 'http://google.com', 'HTTP/1.1', '');
 
-console.log(myData.version);
+console.log(myData);

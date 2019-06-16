@@ -2,6 +2,7 @@
 <project version="4">
   <component name="TypeScriptCompiler">
     <option name="scopeName" value="Current File" />
+    <option name="showAllErrors" value="true" />
     <option name="typeScriptCompilerParams" value="tsconfig.json -w" />
   </component>
 </project>
