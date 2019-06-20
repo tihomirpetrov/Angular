@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
 import { GameComponent } from './game/game.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { GameComponent } from './game/game.component';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

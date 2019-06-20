@@ -1,6 +1,6 @@
-<input #name placeholder="Type your name">
-<button (click)="showName(name.value)">Send</button>
-<h1 *ngIf="name_user">Your name is: {{name.value}}</h1>
+<input [(ngModel)]="name_user" placeholder="Type your name">
+<button>Send</button>
+<h1 *ngIf="name_user">Your name is: {{name_user}}</h1>
 
 <div *ngIf="games">
   <ul>
