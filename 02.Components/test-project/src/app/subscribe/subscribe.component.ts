@@ -8,14 +8,16 @@ import {Game} from '../domain/game';
 })
 export class SubscribeComponent implements OnInit {
   @Input('subGame') subGame: Game;
-@Output() notification = new EventEmitter<string>();
+  @Output() notification = new EventEmitter<string>();
+
   constructor() {
   }
 
-  showSubscribtion(){
+  showSubscribtion() {
     console.log(`The ID is ${this.subGame.id}`);
     this.notification.emit('subscribtion success');
   }
+
   ngOnInit() {
   }
 
