@@ -1,7 +1,7 @@
 <div *ngIf="games">
   <ul>
     <li *ngFor="let game of games">
-      <h1>{{game.title}}</h1>
+      <h1 [class.myStyle]="isShown">{{game.title}}</h1>
       <br>
       <h5>With id: {{game.id}}</h5>
       <br>
