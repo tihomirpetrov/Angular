@@ -8,4 +8,9 @@
       <img src="{{game.image}}" alt="picture">
     </li>
   </ul>
+  <button (click)="showContacts()">Show contacts</button>
+</div>
+
+<div *ngIf="isShown">
+  <h1>Our contacts ...</h1>
 </div>
