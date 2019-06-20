@@ -17,6 +17,10 @@ export class GameComponent implements OnInit {
     this.isShown = !this.isShown;
   }
 
+  showName(name){
+    console.log(name);
+  }
+
   ngOnInit() {
   }
 

@@ -1,16 +1,19 @@
+<input #name placeholder="Type your name">
+<button (click)="showName(name.value)">Send</button>
+
 <div *ngIf="games">
   <ul>
-    <li *ngFor="let game of games">
-      <h1 [class.myStyle]="isShown">{{game.title}}</h1>
+    <li *ngFor="let game of games; let i = index">
+      <h1 [class.myStyle]="isShown">{{i + 1}}. {{game.title | titlecase}}</h1>
       <br>
       <h5>With id: {{game.id}}</h5>
       <br>
       <img src="{{game.image}}" alt="picture">
     </li>
   </ul>
-  <button (click)="showContacts()">Show contacts</button>
+  <button (click)="showContacts()">Show team</button>
 </div>
 
 <div *ngIf="isShown">
-  <h1>Our contacts ...</h1>
+  <h1>Our team:</h1>
 </div>
