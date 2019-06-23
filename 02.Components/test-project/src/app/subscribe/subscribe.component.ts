@@ -15,7 +15,7 @@ export class SubscribeComponent implements OnInit {
 
   showSubscribtion() {
     console.log(`The ID is ${this.subGame.id}`);
-    this.notification.emit('subscribtion success');
+    this.notification.emit(`Subscribtion for game with ID ${this.subGame.id} success`);
   }
 
   ngOnInit() {

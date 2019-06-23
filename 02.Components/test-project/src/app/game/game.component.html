@@ -1,22 +1,23 @@
-<input [(ngModel)]="name_user" placeholder="Type your name">
-<button>Send</button>
-<h1 *ngIf="name_user">Your name is: {{name_user}}</h1>
-
+<input [(ngModel)]="name_user" placeholder="Type nickname">
+<button>Submit</button>
+<!--<h1 *ngIf="name_user">Your nickname is: {{name_user | titlecase}}</h1>-->
+<button (click)="showContacts()">Show nickname</button>
+<div *ngIf="isShown && name_user.length > 0">
+  <h1>Your nickname: {{name_user | titlecase}}</h1>
+</div>
 <div *ngIf="games">
   <ul>
     <li *ngFor="let game of games; let i = index">
-      <h1 [class.myStyle]="isShown">{{i + 1}}. {{game.title | titlecase}}</h1>
-      <br>
-      <h5>With id: {{game.id}}</h5>
-      <br>
-      <img src="{{game.image}}" alt="picture">
+      <h4>Game id: {{game.id}}</h4>
+      <h1 [class.myStyle]="isShown">{{game.title | titlecase}}</h1>
+      <img src="{{game.image}}" alt="picture" height="150" width="280">
       <br>
       <app-subscribe (notification)="notifyMe($event)" [subGame]="game"></app-subscribe>
     </li>
   </ul>
-  <button (click)="showContacts()">Show team</button>
 </div>
 
-<div *ngIf="isShown">
-  <h1>Our team:</h1>
-</div>
+
+
+
+
