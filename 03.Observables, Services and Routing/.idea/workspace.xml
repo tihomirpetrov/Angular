@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07ab5cdf-432e-4f14-a9d9-ffd64e73beb4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/routing/src/app/home/home.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02.Components/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02.Components/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02.Components/~$gular-Components-Lab.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routing/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/routing/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routing/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/routing/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routing/src/app/home/home.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/routing/src/app/home/home.component.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routing/src/app/home/home.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -74,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routing/src/app/home/home.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="51">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -102,9 +97,9 @@
         <option value="$PROJECT_DIR$/routing/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/routing/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/routing/src/app/app.component.css" />
-        <option value="$PROJECT_DIR$/routing/src/app/home/home.component.css" />
         <option value="$PROJECT_DIR$/routing/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/routing/src/app/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/routing/src/app/home/home.component.css" />
       </list>
     </option>
   </component>
@@ -198,12 +193,12 @@
       <workItem from="1561225087504" duration="578000" />
       <workItem from="1561225684997" duration="404000" />
       <workItem from="1561274931350" duration="1666000" />
-      <workItem from="1561299324301" duration="5723000" />
+      <workItem from="1561299324301" duration="6023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8404000" />
+    <option name="totallyTimeSpent" value="8704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -272,10 +267,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routing/src/app/home/home.component.css">
+    <entry file="file://$PROJECT_DIR$/routing/src/app/home/home.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="221">
+          <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -286,13 +284,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routing/src/app/home/home.component.ts">
+    <entry file="file://$PROJECT_DIR$/routing/src/app/home/home.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
