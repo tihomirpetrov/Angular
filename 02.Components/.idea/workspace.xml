@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d53dfa7-685a-48c5-99b8-96dc0853be2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test-project/src/app/game/game.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-project/src/app/game/game.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-project/src/app/subscribe/subscribe.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test-project/src/app/subscribe/subscribe.component.ts" afterDir="false" />
-    </list>
+    <list default="true" id="2d53dfa7-685a-48c5-99b8-96dc0853be2a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -122,12 +119,12 @@
       <workItem from="1561031037179" duration="9839000" />
       <workItem from="1561099786642" duration="1032000" />
       <workItem from="1561280941252" duration="7917000" />
-      <workItem from="1561294010152" duration="5157000" />
+      <workItem from="1561294010152" duration="5302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32629000" />
+    <option name="totallyTimeSpent" value="32774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
