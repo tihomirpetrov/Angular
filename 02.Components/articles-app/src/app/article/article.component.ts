@@ -23,7 +23,7 @@ export class ArticleComponent implements OnInit {
     this.descToShow = "";
   }
 
-  readMore() {
+  readMore(): void {
     this.articleDescLen == this.symbols;
     if (this.articleDescLen >= this.articleDesc.length) {
       this.showHideBtn = true;
