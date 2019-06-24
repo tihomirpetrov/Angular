@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {HomeService} from './home.service';
+import {GithubProfile} from './github-profile';
 
 @Component({
   selector: 'app-home',
@@ -9,7 +10,7 @@ import {HomeService} from './home.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  profile: object;
+  profile: GithubProfile;
 
   constructor(private homeService: HomeService) {
   }
