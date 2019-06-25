@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
-import {GithubProfile} from './github-profile';
+import {GithubProfileModel} from './github-profile.model';
 
 @Injectable()
 export class HomeService {
@@ -14,6 +14,6 @@ export class HomeService {
 
     const url = `https://api.github.com/users/${profile}`;
     return this.httpClient
-      .get<GithubProfile>(url);
+      .get<GithubProfileModel>(url);
   }
 }

@@ -1,4 +1,4 @@
-export interface GithubProfile {
+export interface GithubProfileModel {
   login: string;
   location: string;
 }
