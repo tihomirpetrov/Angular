@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13cbb67c-abd4-4dc8-bdfc-137e97e0a338" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../03.Observables, Services and Routing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03.Observables, Services and Routing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03.Observables, Services and Routing/routing/src/app/home/home.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../03.Observables, Services and Routing/routing/src/app/home/home.module.ts" afterDir="false" />
-    </list>
+    <list default="true" id="13cbb67c-abd4-4dc8-bdfc-137e97e0a338" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -49,6 +46,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -76,12 +74,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561487653491</updated>
-      <workItem from="1561487657099" duration="905000" />
+      <workItem from="1561487657099" duration="1154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="905000" />
+    <option name="totallyTimeSpent" value="1154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
