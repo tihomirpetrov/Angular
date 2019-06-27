@@ -1,6 +1,5 @@
-interface Movie {
-  // poster_path: string;
-  // title: string;
-  // release_date: string;
-  results: Array<string>;
+export interface Movie {
+  release_date: string;
+  title: string;
+  poster_path: string;
 }

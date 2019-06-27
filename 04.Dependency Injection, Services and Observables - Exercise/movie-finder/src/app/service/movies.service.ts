@@ -2,7 +2,7 @@ import {Injectable} from '@angular/core';
 
 import {HttpClient} from '@angular/common/http';
 import {Observable} from "rxjs";
-
+import {Movies} from '../models/movies';
 const apiKey = 'ec0671affc3caa9922695725b291f316';
 
 @Injectable({
@@ -18,11 +18,11 @@ export class MoviesService {
   constructor(private http: HttpClient) {
   }
 
-  getPopular(): Observable<Movie> {
-    return this.http.get<Movie>(`${this.path}${this.popular}${this.authentication}${apiKey}`);
+  getPopular(): Observable<Movies> {
+    return this.http.get<Movies>(`${this.path}${this.popular}${this.authentication}${apiKey}`);
   }
 
-  getTheaters() : Observable<Movie> {
-    return this.http.get<Movie>(`${this.path}${this.theaters}${this.authentication}${apiKey}`);
+  getTheaters() : Observable<Movies> {
+    return this.http.get<Movies>(`${this.path}${this.theaters}${this.authentication}${apiKey}`);
   }
 }
