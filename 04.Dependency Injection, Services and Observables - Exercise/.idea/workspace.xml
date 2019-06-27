@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13cbb67c-abd4-4dc8-bdfc-137e97e0a338" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/movie-finder/src/app/movies/movies.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/movie-finder/src/app/movies/movies.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-finder/src/app/service/movies.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/movie-finder/src/app/service/movies.service.ts" afterDir="false" />
-    </list>
+    <list default="true" id="13cbb67c-abd4-4dc8-bdfc-137e97e0a338" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -58,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/movie-finder/src/app/service/movies.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            <state relative-caret-position="306">
+              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -130,7 +127,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -223,12 +220,12 @@
       <updated>1561487653491</updated>
       <workItem from="1561487657099" duration="1946000" />
       <workItem from="1561550640179" duration="4701000" />
-      <workItem from="1561621856716" duration="12310000" />
+      <workItem from="1561621856716" duration="12910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18957000" />
+    <option name="totallyTimeSpent" value="19557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -396,8 +393,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/movie-finder/src/app/service/movies.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="306">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
