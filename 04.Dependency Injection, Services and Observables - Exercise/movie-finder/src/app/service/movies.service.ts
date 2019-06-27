@@ -18,11 +18,11 @@ export class MoviesService {
   constructor(private http: HttpClient) {
   }
 
-  getPopular(): Observable<Object> {
-    return this.http.get(`${this.path}${this.popular}${this.authentication}${apiKey}`);
+  getPopular(): Observable<Movie> {
+    return this.http.get<Movie>(`${this.path}${this.popular}${this.authentication}${apiKey}`);
   }
 
-  getTheaters() : Observable<Object> {
-    return this.http.get(`${this.path}${this.theaters}${this.authentication}${apiKey}`);
+  getTheaters() : Observable<Movie> {
+    return this.http.get<Movie>(`${this.path}${this.theaters}${this.authentication}${apiKey}`);
   }
 }

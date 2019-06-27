@@ -1,3 +1,11 @@
+<div class="jumbotron">
+  <h1 class="display-5">Browse Our Movies</h1>
+  <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+
+  <p>
+    <a class="btn btn-primary btn-lg" role="button" href="#">Learn more</a>
+  </p>
+</div>
 <div class="panel panel-default">
   <div class="panel-heading">
     <h3 class="panel-title">Popular Movies</h3>
@@ -5,7 +13,7 @@
   <div class="panel-body">
     <div *ngIf="popular" class="row">
       <div *ngFor="let movie of popular.results;let i=index" class="col-md-2">
-        <div>
+        <div *ngIf="i < 6">
           <img *ngIf="movie.poster_path" class="thumbnail" src="http://image.tmdb.org/t/p/w500/{{movie.poster_path}}">
           <h4>{{movie.title}}</h4>
           <p>{{movie.release_date}}</p>
@@ -23,7 +31,7 @@
   <div class="panel-body">
     <div *ngIf="theaters" class="row">
       <div *ngFor="let movie of theaters.results;let i=index" class="col-md-2">
-        <div>
+        <div *ngIf="i < 6">
           <img *ngIf="movie.poster_path" class="thumbnail" src="http://image.tmdb.org/t/p/w500/{{movie.poster_path}}">
           <h4>{{movie.title}}</h4>
           <p>{{movie.release_date}}</p>
