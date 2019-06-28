@@ -12,6 +12,8 @@ export class MoviesService {
   path: string = 'https://api.themoviedb.org/3/';
   popular: string = 'discover/movie?sort_by=popularity.desc';
   theaters: string = 'discover/movie?primary_release_date.gte=2014-09-15&primary_release_date.lte=2014-10-22';
+  kids: string = 'discover/movie?certification_country=US&certification.lte=G&sort_by=popularity.desc';
+  drama: string = 'discover/movie?certification_country=US&certification.lte=R&sort_by=revenue.desc&with_cast=3896';
   authentication: string = '&api_key=';
 
 
@@ -24,5 +26,13 @@ export class MoviesService {
 
   getTheaters() : Observable<Movies> {
     return this.http.get<Movies>(`${this.path}${this.theaters}${this.authentication}${apiKey}`);
+  }
+
+  getKids() : Observable<Movies> {
+    return this.http.get<Movies>(`${this.path}${this.kids}${this.authentication}${apiKey}`);
+  }
+
+  getDrama() : Observable<Movies> {
+    return this.http.get<Movies>(`${this.path}${this.drama}${this.authentication}${apiKey}`);
   }
 }

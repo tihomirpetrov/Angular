@@ -9,6 +9,8 @@ import {MoviesService} from "../service/movies.service";
 export class MoviesComponent implements OnInit {
   popular : Object;
   theaters : Object;
+  kids : Object;
+  drama : Object;
 
   constructor(private moviesService : MoviesService) { }
 
@@ -16,12 +18,22 @@ export class MoviesComponent implements OnInit {
     this.moviesService.getPopular().subscribe(data => {
       this.popular = data;
       data.results
-      console.log(data.results);
+      //console.log(data.results);
     })
 
     this.moviesService.getTheaters().subscribe( data =>{
       this.theaters = data;
-      console.log(data.results);
+      //console.log(data.results);
+    })
+
+    this.moviesService.getKids().subscribe( data =>{
+      this.kids = data;
+      //console.log(data.results);
+    })
+
+    this.moviesService.getDrama().subscribe( data =>{
+      this.drama = data;
+      //console.log(data.results);
     })
   }
 }
