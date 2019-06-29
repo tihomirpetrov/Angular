@@ -15,7 +15,8 @@ export class MoviesService {
   kids: string = 'discover/movie?certification_country=US&certification.lte=G&sort_by=popularity.desc';
   drama: string = 'discover/movie?certification_country=US&certification.lte=R&sort_by=revenue.desc&with_cast=3896';
   authentication: string = '&api_key=';
-
+  movie: string = 'movie/';
+  movieAuth: string = '?api_key=';
 
   constructor(private http: HttpClient) {
   }
@@ -34,5 +35,9 @@ export class MoviesService {
 
   getDrama() : Observable<Movies> {
     return this.http.get<Movies>(`${this.path}${this.drama}${this.authentication}${apiKey}`);
+  }
+
+  getMovie(id){
+    return this.http.get(`${this.path}${}`)
   }
 }

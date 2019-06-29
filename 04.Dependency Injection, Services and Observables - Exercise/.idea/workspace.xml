@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13cbb67c-abd4-4dc8-bdfc-137e97e0a338" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/movie-finder/src/app/movies/movies.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/movie-finder/src/app/movies/movies.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-finder/src/app/app.routing.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-finder/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/movie-finder/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-finder/src/app/service/movies.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/movie-finder/src/app/service/movies.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$gular-Application-Movie-DB-Part-2.docx" beforeDir="false" afterPath="$PROJECT_DIR$/~$gular-Application-Movie-DB-Part-2.docx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,21 +20,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movie/movie.component.html">
+        <entry file="file://$PROJECT_DIR$/movie-finder/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
+            <state relative-caret-position="332">
+              <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movie-finder/src/app/app.module.ts">
+        <entry file="file://$PROJECT_DIR$/movie-finder/src/app/selected-movie/selected-movie.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="255">
+              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
               <folding>
-                <element signature="e#0#56#0" expanded="true" />
+                <element signature="e#0#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,7 +55,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies/movies.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
+            <state relative-caret-position="935">
               <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
             </state>
           </provider>
@@ -63,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/movie-finder/src/app/service/movies.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
+            <state relative-caret-position="306">
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -93,13 +100,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies/movies.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="306">
               <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movie-finder/src/app/app.routing.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,16 +144,18 @@
         <option value="$PROJECT_DIR$/movie-finder/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/movie-finder/src/app/navigation/navigation.component.html" />
         <option value="$PROJECT_DIR$/movie-finder/src/app/navigation/navigation.component.ts" />
-        <option value="$PROJECT_DIR$/movie-finder/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/movie-finder/src/app/models/movie.ts" />
         <option value="$PROJECT_DIR$/movie-finder/src/app/models/movies.ts" />
         <option value="$PROJECT_DIR$/movie-finder/src/app/movie/movie.component.ts" />
         <option value="$PROJECT_DIR$/movie-finder/src/app/movie/movie.component.html" />
         <option value="$PROJECT_DIR$/movie-finder/src/app/movies/movies.component.css" />
         <option value="$PROJECT_DIR$/movie-finder/src/app/movie/movie.component.css" />
-        <option value="$PROJECT_DIR$/movie-finder/src/app/service/movies.service.ts" />
         <option value="$PROJECT_DIR$/movie-finder/src/app/movies/movies.component.html" />
         <option value="$PROJECT_DIR$/movie-finder/src/app/movies/movies.component.ts" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/app.routing.ts" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/selected-movie/selected-movie.component.ts" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/service/movies.service.ts" />
       </list>
     </option>
   </component>
@@ -150,6 +171,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,13 +227,20 @@
               <item name="movie-finder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="selected-movie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="04.Dependency Injection, Services and Observables - Exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="04.Dependency Injection, Services and Observables - Exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="movie-finder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,12 +277,13 @@
       <workItem from="1561487657099" duration="1946000" />
       <workItem from="1561550640179" duration="4701000" />
       <workItem from="1561621856716" duration="14218000" />
-      <workItem from="1561710436869" duration="2774000" />
+      <workItem from="1561710436869" duration="4702000" />
+      <workItem from="1561798439493" duration="911000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23639000" />
+    <option name="totallyTimeSpent" value="26478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -364,16 +394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movie/movie.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -381,10 +401,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/models/movie.ts">
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies/movies.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="935">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -395,20 +415,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies/movies.component.html">
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/models/movie.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/service/movies.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -421,10 +431,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies/movies.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="306">
           <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/app.routing.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/selected-movie/selected-movie.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/service/movies.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
