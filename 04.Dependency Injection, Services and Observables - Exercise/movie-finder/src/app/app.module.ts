@@ -5,7 +5,7 @@ import {HttpClientModule} from '@angular/common/http';
 import {AppComponent} from './app.component';
 import {MoviesComponent} from './movies/movies.component';
 import {NavigationComponent} from './navigation/navigation.component';
-import {RouterModule,Route} from "@angular/router";
+import {RouterModule, Route} from "@angular/router";
 
 import {MoviesService} from "./service/movies.service";
 import { MovieComponent } from './movie/movie.component';

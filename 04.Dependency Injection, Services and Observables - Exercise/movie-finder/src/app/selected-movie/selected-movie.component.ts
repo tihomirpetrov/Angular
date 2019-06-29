@@ -9,12 +9,12 @@ import {MoviesService} from "../service/movies.service";
 })
 export class SelectedMovieComponent implements OnInit {
   myMovie;
-  constructor(private route: ActivatedRoute, private movieService: MoviesService) { }
+  constructor(private route: ActivatedRoute, private moviesService: MoviesService) { }
 
   ngOnInit() {
     this.route.params.subscribe((params) =>{
       let id = params['id'];
-      this.movieService.getMovie(id).subscribe((selectedMovie) =>{
+      this.moviesService.getMovie(id).subscribe((selectedMovie) => {
         this.myMovie = selectedMovie;
       });
 
