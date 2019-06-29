@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute} from "@angular/router";
+import {MoviesService} from "../service/movies.service";
 
 @Component({
   selector: 'app-selected-movie',
@@ -7,13 +8,16 @@ import {ActivatedRoute} from "@angular/router";
   styleUrls: ['./selected-movie.component.css']
 })
 export class SelectedMovieComponent implements OnInit {
-
-  constructor(private route: ActivatedRoute) { }
+  myMovie;
+  constructor(private route: ActivatedRoute, private movieService: MoviesService) { }
 
   ngOnInit() {
     this.route.params.subscribe((params) =>{
       let id = params['id'];
-      this.
+      this.movieService.getMovie(id).subscribe((selectedMovie) =>{
+        this.myMovie = selectedMovie;
+      });
+
     })
   }
 

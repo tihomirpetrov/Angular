@@ -24,7 +24,7 @@ import { SelectedMovieComponent } from './selected-movie/selected-movie.componen
     HttpClientModule,
     RouterModule.forRoot([
       { path: '', component: MoviesComponent},
-      { path: '/movie/:id', component: SelectedMovieComponent}])
+      { path: 'movie/:id', component: SelectedMovieComponent}])
   ],
   providers: [MoviesService],
   bootstrap: [AppComponent]

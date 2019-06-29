@@ -38,6 +38,6 @@ export class MoviesService {
   }
 
   getMovie(id){
-    return this.http.get(`${this.path}${}`)
+    return this.http.get(`${this.path}${this.movie}+ id + ${this.movieAuth}${apiKey}`);
   }
 }
