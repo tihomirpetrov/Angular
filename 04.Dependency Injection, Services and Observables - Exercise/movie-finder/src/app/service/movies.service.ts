@@ -40,4 +40,10 @@ export class MoviesService {
   getMovie(id){
     return this.http.get(`${this.path}${this.movie}` + id + `${this.movieAuth}${apiKey}`);
   }
+
+  findAMovie(myQuery){
+    //console.log((`${this.path}` + search + `${this.authentication}${apiKey}`));
+    //https://api.themoviedb.org/3/search/movie&query='+search + "&api_key=" + apiKey
+    return this.http.get('https://api.themoviedb.org/3/search/movie?query='+ myQuery + "&api_key=" + apiKey);
+  }
 }
