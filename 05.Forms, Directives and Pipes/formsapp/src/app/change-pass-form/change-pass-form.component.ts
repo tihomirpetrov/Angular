@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import {FormGroup, FormControlName, FormControl} from "@angular/forms";
+import {Component, OnInit} from '@angular/core';
+import {FormGroup, FormControl, Validators} from "@angular/forms";
 
 
 @Component({
@@ -10,16 +10,29 @@ import {FormGroup, FormControlName, FormControl} from "@angular/forms";
 export class ChangePassFormComponent implements OnInit {
 
   form = new FormGroup({
-    "currentPass": new FormControl(''),
+    "currentPass": new FormControl('', [Validators.required]),
     "newPass": new FormControl(''),
     "matchPass": new FormControl('')
   })
 
-  log(){
-    console.log(this.form.value);
+  currentPass = "123";
+
+  log() {
+    console.log(this.form.get('currentPass').value);
+    if (this.form.get('newPass').value != this.form.get('matchPass').value) {
+      alert('passwords mismatch');
+    }
+    else {
+      if (this.form.get('currentPass').value != this.currentPass) {
+        alert('password is wrong');
+      }
+    }
+
+
   }
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }
