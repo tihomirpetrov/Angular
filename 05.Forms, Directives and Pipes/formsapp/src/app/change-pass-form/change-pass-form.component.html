@@ -1,0 +1,15 @@
+<form [formGroup]="form" (ngSubmit)="log()">
+  <div class="form-group">
+    <label for="">Current pass</label>
+    <input type="text" class="form-control" formControlName="currentPass">
+  </div>
+  <div class="form-group">
+    <label for="">New password</label>
+    <input type="text" class="form-control" formControlName="newPass">
+  </div>
+  <div class="form-group">
+    <label for="">Confirm password</label>
+    <input type="text" class="form-control" formControlName="matchPass">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
