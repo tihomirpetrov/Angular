@@ -6,8 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./template-driven-form.component.css']
 })
 export class TemplateDrivenFormComponent implements OnInit {
-
-  constructor() { }
+  model: any;
+  constructor() {
+    this.model = {
+      "processor":"Core i7"
+    }
+  }
 
   login(formData){
     console.log(formData);
