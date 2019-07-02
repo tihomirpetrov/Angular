@@ -9,6 +9,10 @@ export class TemplateDrivenFormComponent implements OnInit {
 
   constructor() { }
 
+  login(formData){
+    console.log(formData);
+  }
+
   ngOnInit() {
   }
 
