@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a40c16a-f9b1-4719-bcf7-1cf5585dc6e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/formsapp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/formsapp/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formsapp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/formsapp/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formsapp/src/app/template-driven-form/template-driven-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/formsapp/src/app/template-driven-form/template-driven-form.component.html" afterDir="false" />
-    </list>
+    <list default="true" id="8a40c16a-f9b1-4719-bcf7-1cf5585dc6e7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -38,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/formsapp/src/app/change-pass-form/change-pass-form.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -56,10 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/formsapp/src/app/change-pass-form/change-pass-form.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="204">
               <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
@@ -170,12 +166,12 @@
       <updated>1561975900386</updated>
       <workItem from="1561975902871" duration="1093000" />
       <workItem from="1561977004726" duration="3715000" />
-      <workItem from="1562055266340" duration="13434000" />
+      <workItem from="1562055266340" duration="13837000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18242000" />
+    <option name="totallyTimeSpent" value="18645000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -187,7 +183,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -244,13 +240,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/formsapp/src/app/change-pass-form/change-pass-form.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/formsapp/src/app/template-driven-form/template-driven-form.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
@@ -267,11 +256,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/formsapp/src/app/change-pass-form/change-pass-form.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="204">
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formsapp/src/app/change-pass-form/change-pass-form.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
