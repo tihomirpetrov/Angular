@@ -17,6 +17,9 @@ export class TemplateDrivenFormComponent implements OnInit {
     console.log(formData);
   }
 
+  field(data){
+
+  }
   ngOnInit() {
   }
 

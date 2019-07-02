@@ -1,13 +1,13 @@
-<form  #form="ngForm" (ngSubmit)="login(form.value)">
+<form #form="ngForm" (ngSubmit)="login(form.value)">
   <div class="form-group">
-    <label for="">Email address</label>
-    <input type="email" class="form-control" [(ngModel)]="model.processor" name="processor">
+    <label for="">Processor type</label>
+    <input type="email" (click)="field(emailField)" class="form-control" [(ngModel)]="model.processor" name="processor">
   </div>
 
   <div class="form-group">
     <label for="">Email address</label>
-    <input type="email" (click)="emailInput" class="form-control" #emailInput="ngModel" name="email" ngModel required>
-    <div class="alert alert-danger" *ngIf="emailInput.touched && emailInput.errors.required">Username is required</div>
+    <input type="email" (click)="field(emailField)" class="form-control" #emailField="ngModel" name="email" ngModel required>
+    <div class="alert alert-danger" *ngIf="emailField.touched && emailField.errors.required">Username is required</div>
   </div>
   <div class="form-group">
     <label for="">Password</label>
