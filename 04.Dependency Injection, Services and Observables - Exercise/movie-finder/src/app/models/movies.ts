@@ -1,4 +1,4 @@
-import {Movie} from "./movie";
+import {Movie} from './movie';
 
 export interface Movies {
   // poster_path: string;

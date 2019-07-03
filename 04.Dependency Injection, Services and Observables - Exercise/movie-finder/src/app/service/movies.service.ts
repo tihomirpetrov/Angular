@@ -25,15 +25,15 @@ export class MoviesService {
     return this.http.get<Movies>(`${this.path}${this.popular}${this.authentication}${apiKey}`);
   }
 
-  getTheaters() : Observable<Movies> {
+  getTheaters(): Observable<Movies> {
     return this.http.get<Movies>(`${this.path}${this.theaters}${this.authentication}${apiKey}`);
   }
 
-  getKids() : Observable<Movies> {
+  getKids(): Observable<Movies> {
     return this.http.get<Movies>(`${this.path}${this.kids}${this.authentication}${apiKey}`);
   }
 
-  getDrama() : Observable<Movies> {
+  getDrama(): Observable<Movies> {
     return this.http.get<Movies>(`${this.path}${this.drama}${this.authentication}${apiKey}`);
   }
 
