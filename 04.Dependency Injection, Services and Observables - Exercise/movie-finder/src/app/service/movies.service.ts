@@ -1,7 +1,7 @@
 import {Injectable} from '@angular/core';
 
 import {HttpClient} from '@angular/common/http';
-import {Observable} from "rxjs";
+import {Observable} from 'rxjs';
 import {Movies} from '../models/movies';
 const apiKey = 'ec0671affc3caa9922695725b291f316';
 
