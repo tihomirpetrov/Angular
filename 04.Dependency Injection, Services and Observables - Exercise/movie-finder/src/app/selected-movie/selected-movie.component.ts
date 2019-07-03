@@ -13,12 +13,10 @@ export class SelectedMovieComponent implements OnInit {
 
   ngOnInit() {
     this.route.params.subscribe((params) => {
-      let id = params['id'];
+      const id = params.id;
       this.movieService.getMovie(id).subscribe((selectedMovie) => {
         this.myMovie = selectedMovie;
       });
-
-    })
+    });
   }
-
 }

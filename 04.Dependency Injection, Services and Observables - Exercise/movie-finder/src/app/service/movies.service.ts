@@ -44,6 +44,6 @@ export class MoviesService {
   findAMovie(myQuery){
     //console.log((`${this.path}` + search + `${this.authentication}${apiKey}`));
     //https://api.themoviedb.org/3/search/movie&query='+search + "&api_key=" + apiKey
-    return this.http.get('https://api.themoviedb.org/3/search/movie?query='+ myQuery + "&api_key=" + apiKey);
+    return this.http.get('https://api.themoviedb.org/3/search/movie?query=' + myQuery + '&api_key=' + apiKey);
   }
 }
