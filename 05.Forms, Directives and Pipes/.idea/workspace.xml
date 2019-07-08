@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a40c16a-f9b1-4719-bcf7-1cf5585dc6e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/forms-exercise/src/app/models/loginModel.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms-exercise/src/app/models/registerModel.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms-exercise/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/forms-exercise/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms-exercise/src/app/models/loginModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/forms-exercise/src/app/models/loginModel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms-exercise/src/app/models/registerModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/forms-exercise/src/app/models/registerModel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms-exercise/src/app/navigation/navigation.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms-exercise/src/app/navigation/navigation.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-app-forms" beforeDir="false" afterPath="$PROJECT_DIR$/test-app-forms" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-app-forms/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/test-app-forms/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-app-forms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/test-app-forms/package.json" afterDir="false" />
@@ -35,26 +36,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forms-exercise/src/app/navigation/navigation.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/forms-exercise/src/app/models/registerModel.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="255">
+              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/forms-exercise/src/app/models/registerModel.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forms-exercise/src/app/models/loginModel.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="68">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -88,10 +89,10 @@
         <option value="$PROJECT_DIR$/formsapp/src/app/template-driven-form/template-driven-form.component.html" />
         <option value="$PROJECT_DIR$/forms-exercise/angular.json" />
         <option value="$PROJECT_DIR$/forms-exercise/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/forms-exercise/src/app/navigation/navigation.component.html" />
         <option value="$PROJECT_DIR$/forms-exercise/src/app/models/model.ts" />
-        <option value="$PROJECT_DIR$/forms-exercise/src/app/models/registerModel.ts" />
+        <option value="$PROJECT_DIR$/forms-exercise/src/app/navigation/navigation.component.html" />
         <option value="$PROJECT_DIR$/forms-exercise/src/app/models/loginModel.ts" />
+        <option value="$PROJECT_DIR$/forms-exercise/src/app/models/registerModel.ts" />
       </list>
     </option>
   </component>
@@ -132,14 +133,6 @@
               <item name="forms-exercise" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="05.Forms, Directives and Pipes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="05.Forms, Directives and Pipes" type="462c0819:PsiDirectoryNode" />
-              <item name="forms-exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="05.Forms, Directives and Pipes" type="b2602c69:ProjectViewProjectNode" />
@@ -195,12 +188,12 @@
       <workItem from="1562316029834" duration="6452000" />
       <workItem from="1562412042559" duration="2578000" />
       <workItem from="1562535145714" duration="102000" />
-      <workItem from="1562576278919" duration="3170000" />
+      <workItem from="1562576278919" duration="3461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39875000" />
+    <option name="totallyTimeSpent" value="40166000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -369,22 +362,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/forms-exercise/src/app/navigation/navigation.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forms-exercise/src/app/models/registerModel.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="255">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/forms-exercise/src/app/models/loginModel.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="68">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms-exercise/src/app/models/registerModel.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
