@@ -1,13 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {AppComponent} from "./app.component";
+import {NavigationComponent} from "./navigation/navigation.component";
+import {RouterModule} from "@angular/router";
+import {HomeComponent} from "./home/home.component";
+import {FormsModule} from "@angular/forms";
+import {LoginComponent} from "./authentication/login/login.component";
+import {RegisterComponent} from "./authentication/register/register.component";
+import {AppRoutingModule} from "./app-routing.module";
+import {RegisterModel} from "./models/register.model";
+import {LoginModel} from "./models/login.model";
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { NavigationComponent } from './navigation/navigation.component';
-import { LoginComponent } from './authentication/login/login.component';
-import { RegisterComponent } from './authentication/register/register.component';
-import { HomeComponent } from './home/home.component';
-import {RegisterModel} from "./models/registerModel";
 
 @NgModule({
   declarations: [
@@ -19,9 +22,11 @@ import {RegisterModel} from "./models/registerModel";
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    RouterModule
   ],
-  providers: [RegisterModel],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

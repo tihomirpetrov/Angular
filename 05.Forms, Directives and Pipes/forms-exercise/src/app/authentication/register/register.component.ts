@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { RegisterModel } from "../../models/registerModel";
+import { RegisterModel } from "../../models/register.model";
+import { FormsModule} from "@angular/forms";
 
 @Component({
   selector: 'app-register',
@@ -7,14 +8,18 @@ import { RegisterModel } from "../../models/registerModel";
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent implements OnInit {
-  registerModel: RegisterModel
+  form: RegisterModel;
 
-  constructor() {
-    this.registerModel =  new RegisterModel('','','','','', '18');
+  constructor( ) {
+    this.form =  new RegisterModel('','','','','','', 18);
   }
 
 
   ngOnInit() {
   }
 
+
+  registration() {
+    console.log(this.form);
+  }
 }
