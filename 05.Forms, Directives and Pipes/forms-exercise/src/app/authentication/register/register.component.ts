@@ -7,12 +7,12 @@ import { RegisterModel } from "../../models/registerModel";
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent implements OnInit {
+  registerModel: RegisterModel
 
-
-  constructor(registerModel: RegisterModel) {
-
+  constructor() {
+    this.registerModel =  new RegisterModel('','','','','', '18');
   }
-  registerModel =  new RegisterModel('','','','','', '18')
+
 
   ngOnInit() {
   }
