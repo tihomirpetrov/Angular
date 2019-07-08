@@ -16,4 +16,7 @@ loginModel: LoginModel
   ngOnInit() {
   }
 
+  login() {
+    console.log(this.loginModel);
+  }
 }
