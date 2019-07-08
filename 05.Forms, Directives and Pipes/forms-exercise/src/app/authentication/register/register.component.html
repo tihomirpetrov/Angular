@@ -7,7 +7,7 @@
       <input type="text" class="form-control" id="username"
              required
              name = "username"
-             pattern="^[A-Z][\w]*"
+             pattern="^[A-Z][\w]+$"
              [(ngModel)]="form.username"
              #username = "ngModel">
       <div [hidden]="username.valid || username.pristine" class="alert alert-danger">Username must start with a capital letter and must contain only letters and digits.</div>
@@ -17,7 +17,7 @@
       <input type="password" class="form-control" id="password"
              required
              name = "password"
-             pattern="^[\w]*"
+             pattern="^[\w]*$"
              minlength="4"
              maxlength="16"
              [(ngModel)]="form.password"
@@ -37,6 +37,7 @@
       <label for="firstName">First Name</label>
       <input type="text" class="form-control" id="firstName"
              required
+             pattern="^[A-Z][a-z]+$"
              name="firstName"
              [(ngModel)]="form.firstName"
              #firstName = "ngModel">
