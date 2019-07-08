@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { RegisterModel } from "../../models/registerModel";
 
 @Component({
   selector: 'app-register',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegisterComponent implements OnInit {
 
-  constructor() { }
+
+  constructor(registerModel: RegisterModel) {
+
+  }
+  registerModel =  new RegisterModel('','','','','', '18')
 
   ngOnInit() {
   }
