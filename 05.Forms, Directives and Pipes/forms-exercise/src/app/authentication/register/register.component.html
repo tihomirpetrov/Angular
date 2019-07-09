@@ -75,4 +75,5 @@
 
     <button type="submit" class="btn btn-success" [disabled]="registerForm.form.invalid">Register</button>
   </form>
+  <div *ngIf="loginFailed">{{errorMessage}}</div>
 </div>
