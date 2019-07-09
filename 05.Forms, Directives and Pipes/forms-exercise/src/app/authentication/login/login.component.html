@@ -23,4 +23,5 @@
     </div>
     <button type="submit" class="btn btn-success" [disabled]="loginForm.invalid">Login</button>
   </form>
+  <div *ngIf="loginFailed" class="alert alert-danger">{{errorMessage}}</div>
 </div>

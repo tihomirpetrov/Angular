@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {LoginModel} from "../../models/login.model";
+import {AuthService} from "../auth.service";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-login',
@@ -8,8 +10,10 @@ import {LoginModel} from "../../models/login.model";
 })
 export class LoginComponent implements OnInit {
   loginModel: LoginModel;
+  loginFailed : boolean;
+  errorMessage : string;
 
-  constructor() {
+  constructor(private  authService : AuthService, private router : Router) {
   this.loginModel = new LoginModel('','');
   }
 
@@ -17,6 +21,21 @@ export class LoginComponent implements OnInit {
   }
 
   login() {
-    console.log(this.loginModel);
+    //console.log(this.loginModel);
+    this.authService.login(this.loginModel)
+      .subscribe( data=>{
+        this.successfulLogin(data);
+        this.router.navigate(['/home']);
+    },
+      err =>{
+        this.loginFailed = true;
+        this.errorMessage = err.error.description;
+      })
+  }
+
+  successfulLogin(data){
+    this.authService.authtoken = data['_kmd']['authtoken'];
+    localStorage.setItem('authtoken', data['_kmd']['authtoken']);
+    localStorage.setItem('username', data['username']);
   }
 }
