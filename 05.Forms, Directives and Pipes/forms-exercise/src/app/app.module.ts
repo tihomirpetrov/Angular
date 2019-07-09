@@ -10,6 +10,8 @@ import {RegisterComponent} from "./authentication/register/register.component";
 import {AppRoutingModule} from "./app-routing.module";
 import {RegisterModel} from "./models/register.model";
 import {LoginModel} from "./models/login.model";
+import {HttpClientModule} from "@angular/common/http";
+import {AuthService} from "./authentication/auth.service";
 
 
 @NgModule({
@@ -24,9 +26,10 @@ import {LoginModel} from "./models/login.model";
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    RouterModule
+    RouterModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
