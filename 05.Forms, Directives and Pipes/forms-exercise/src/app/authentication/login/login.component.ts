@@ -7,7 +7,7 @@ import {LoginModel} from "../../models/login.model";
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-loginModel: LoginModel
+  loginModel: LoginModel;
 
   constructor() {
   this.loginModel = new LoginModel('','');

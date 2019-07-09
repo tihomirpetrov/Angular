@@ -7,7 +7,7 @@
              required
              name = "username"
              pattern="^[A-Z][\w]+$"
-             [(ngModel)]="loginForm.username"
+             [(ngModel)]="loginModel.username"
              #username = "ngModel">
       <div [hidden]="username.valid || username.pristine" class="alert alert-danger">Username must start with a capital letter and must contain only letters and digits.</div>
     </div>
@@ -17,7 +17,7 @@
              required
              name = "password"
              pattern="^[\w]*$"
-             [(ngModel)]="loginForm.password"
+             [(ngModel)]="loginModel.password"
              #password = "ngModel">
       <div [hidden]="password.valid || password.pristine" class="alert alert-danger">Password must be only letters and digits and must be between 4 and 16 symbols.</div>
     </div>

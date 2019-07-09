@@ -17,6 +17,7 @@ export class RegisterComponent implements OnInit {
   }
 
   registration() {
+    delete this.form['confirmPassword'];
     console.log(this.form);
   }
 
