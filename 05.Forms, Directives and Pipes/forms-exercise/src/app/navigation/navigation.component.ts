@@ -19,6 +19,7 @@ export class NavigationComponent implements OnInit {
       .subscribe(data =>{
         localStorage.clear();
         this.authService.authtoken = '';
+        this.router.navigate(['/login']);
       });
   }
 }

@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a40c16a-f9b1-4719-bcf7-1cf5585dc6e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/forms-exercise/src/app/authentication/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms-exercise/src/app/authentication/login/login.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms-exercise/src/app/authentication/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/forms-exercise/src/app/authentication/login/login.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms-exercise/src/app/authentication/register/register.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms-exercise/src/app/authentication/register/register.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forms-exercise/src/app/navigation/navigation.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/forms-exercise/src/app/navigation/navigation.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forms-exercise/src/app/navigation/navigation.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/forms-exercise/src/app/navigation/navigation.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-app-forms" beforeDir="false" afterPath="$PROJECT_DIR$/test-app-forms" afterDir="false" />
@@ -61,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/forms-exercise/src/app/navigation/navigation.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+            <state relative-caret-position="255">
+              <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -82,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forms-exercise/src/app/navigation/navigation.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            <state relative-caret-position="289">
+              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -286,12 +283,12 @@
       <workItem from="1562602208432" duration="9832000" />
       <workItem from="1562660899907" duration="1622000" />
       <workItem from="1562677148610" duration="4418000" />
-      <workItem from="1562684097523" duration="4055000" />
+      <workItem from="1562684097523" duration="5016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69145000" />
+    <option name="totallyTimeSpent" value="70106000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -509,6 +506,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/forms-exercise/src/app/authentication/login/login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms-exercise/src/app/authentication/register/register.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="77" column="52" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms-exercise/src/app/navigation/navigation.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/forms-exercise/src/app/authentication/register/register.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -529,31 +547,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forms-exercise/src/app/authentication/login/login.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forms-exercise/src/app/authentication/register/register.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="77" column="52" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forms-exercise/src/app/navigation/navigation.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/forms-exercise/src/app/navigation/navigation.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        <state relative-caret-position="255">
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
