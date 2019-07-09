@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { RegisterModel } from "../../models/register.model";
+import {AuthService} from "../auth.service";
 
 @Component({
   selector: 'app-register',
@@ -9,7 +10,7 @@ import { RegisterModel } from "../../models/register.model";
 export class RegisterComponent implements OnInit {
   form: RegisterModel;
 
-  constructor( ) {
+  constructor( private authService : AuthService) {
     this.form =  new RegisterModel('','','','','','', 18);
   }
 
