@@ -4,7 +4,6 @@
     <list default="true" id="29af169b-4f39-4ff4-aedc-80ee25315c9d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../05.Forms, Directives and Pipes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05.Forms, Directives and Pipes/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05.Forms, Directives and Pipes/test-app-forms" beforeDir="false" afterPath="$PROJECT_DIR$/../05.Forms, Directives and Pipes/test-app-forms" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.ts" afterDir="false" />
     </list>
@@ -83,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+            <state relative-caret-position="306">
+              <caret line="42" column="91" lean-forward="true" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -104,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+            <state relative-caret-position="196">
+              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -242,12 +241,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562922300562</updated>
-      <workItem from="1562922311511" duration="12321000" />
+      <workItem from="1562922311511" duration="15482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12321000" />
+    <option name="totallyTimeSpent" value="15482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -450,8 +449,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        <state relative-caret-position="196">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
@@ -460,8 +459,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+        <state relative-caret-position="306">
+          <caret line="42" column="91" lean-forward="true" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
         </state>
       </provider>
     </entry>

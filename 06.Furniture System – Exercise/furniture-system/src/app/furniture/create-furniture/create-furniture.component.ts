@@ -24,7 +24,7 @@ export class CreateFurnitureComponent implements OnInit {
   }
 
   createFurniture() {
-    console.log(this.form.value);
+    console.log(this.form);
   }
 
   get f(){
