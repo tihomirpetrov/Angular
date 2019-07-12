@@ -7,6 +7,7 @@ const createF = 'http://localhost:5000/furniture/create';
 const getAllF = 'http://localhost:5000/furniture/all';
 const getSingleF = 'http://localhost:5000/furniture/details/';
 const getUserF = 'http://localhost:5000/furniture/user';
+const deleteF = 'http://localhost:5000/furniture/delete/';
 
 @Injectable({
   providedIn: 'root'
@@ -31,5 +32,9 @@ export class FurnitureService {
 
   getUserFurniture(): Observable<Array<Furniture>>{
     return  this.http.get<Array<Furniture>>(getUserF);
+  }
+
+  deleteFurniture(id){
+    return this.http.delete(deleteF + id);
   }
 }
