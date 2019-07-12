@@ -6,6 +6,7 @@ import {Observable} from "rxjs";
 const createF = 'http://localhost:5000/furniture/create';
 const getAllF = 'http://localhost:5000/furniture/all';
 const getSingleF = 'http://localhost:5000/furniture/details/';
+const getUserF = 'http://localhost:5000/furniture/user';
 
 @Injectable({
   providedIn: 'root'
@@ -26,5 +27,9 @@ export class FurnitureService {
 
   getFurniture(id): Observable<Furniture>{
     return this.http.get<Furniture>(getSingleF + id);
+  }
+
+  getUserFurniture(): Observable<Array<Furniture>>{
+    return  this.http.get<Array<Furniture>>(getUserF);
   }
 }
