@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29af169b-4f39-4ff4-aedc-80ee25315c9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/furniture-system/src/app/models/furniture.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05.Forms, Directives and Pipes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05.Forms, Directives and Pipes/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05.Forms, Directives and Pipes/test-app-forms" beforeDir="false" afterPath="$PROJECT_DIR$/../05.Forms, Directives and Pipes/test-app-forms" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furniture-system/src/app/authentication/signin/signin.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/src/app/authentication/signin/signin.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furniture-system/src/app/furniture/furniture.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/src/app/furniture/furniture.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furniture-system/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/src/app/home/home.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,48 +25,9 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/furniture-system/src/app/authentication/auth.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/furniture-system/Furniture-System-HTML-Resources/details-furniture.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="10" lean-forward="true" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/furniture-system/Furniture-System-HTML-Resources/my-furniture.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="17" lean-forward="true" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-user/furniture-user.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/furniture-system/src/app/navigation/navigation.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="272">
               <caret line="22" column="61" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="61" />
             </state>
           </provider>
@@ -69,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/furniture-system/src/app/app-routing.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+            <state relative-caret-position="179">
+              <caret line="19" column="90" selection-start-line="19" selection-start-column="90" selection-end-line="19" selection-end-column="90" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
                 <element signature="e#113#167#0" expanded="true" />
@@ -79,23 +46,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/furniture-system/src/app/authentication/signin/signin.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="42" column="91" lean-forward="true" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
+            <state relative-caret-position="289">
+              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#71#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/furniture-system/src/app/app.module.ts">
+        <entry file="file://$PROJECT_DIR$/furniture-system/src/app/home/home.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/furniture-system/src/app/home/home.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -103,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            <state relative-caret-position="264">
+              <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -112,7 +88,53 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="47" column="49" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/furniture.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/furniture-system/src/app/models/furniture.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/furniture-system/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -125,10 +147,16 @@
         <option value="$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-all/furniture-all.component.html" />
         <option value="$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-details/furniture-details.component.html" />
         <option value="$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-user/furniture-user.component.html" />
-        <option value="$PROJECT_DIR$/furniture-system/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/furniture-system/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.ts" />
         <option value="$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.html" />
+        <option value="$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.css" />
+        <option value="$PROJECT_DIR$/furniture-system/src/app/models/furniture.ts" />
+        <option value="$PROJECT_DIR$/furniture-system/src/app/furniture/furniture.service.ts" />
+        <option value="$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.ts" />
+        <option value="$PROJECT_DIR$/furniture-system/src/app/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/furniture-system/src/app/authentication/signin/signin.component.ts" />
+        <option value="$PROJECT_DIR$/furniture-system/src/app/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/furniture-system/src/app/home/home.component.html" />
       </list>
     </option>
   </component>
@@ -175,6 +203,23 @@
               <item name="furniture-system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06.Furniture System – Exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06.Furniture System – Exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="furniture-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+              <item name="signin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06.Furniture System – Exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06.Furniture System – Exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="furniture-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="furniture" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -192,16 +237,7 @@
               <item name="furniture-system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="furniture" type="462c0819:PsiDirectoryNode" />
-              <item name="furniture-all" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06.Furniture System – Exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06.Furniture System – Exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="furniture-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="navigation" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -218,6 +254,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="ts.external.directory.path" value="D:\softuni - modules\Angular\06.Furniture System – Exercise\furniture-system\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\softuni - modules\Angular\06.Furniture System – Exercise\furniture-system\src\app" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -241,24 +282,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562922300562</updated>
-      <workItem from="1562922311511" duration="15482000" />
+      <workItem from="1562922311511" duration="16996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15482000" />
+    <option name="totallyTimeSpent" value="16996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" weight="0.329582" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.329582" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.329582" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -330,15 +371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/authentication/signin/signin.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <folding>
-            <element signature="e#0#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/furniture-system/src/app/authentication/signup/signup.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -384,7 +416,7 @@
     <entry file="file://$PROJECT_DIR$/furniture-system/Furniture-System-HTML-Resources/my-furniture.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="17" lean-forward="true" selection-end-line="26" />
+          <caret line="8" column="17" selection-end-line="26" />
         </state>
       </provider>
     </entry>
@@ -405,7 +437,7 @@
     <entry file="file://$PROJECT_DIR$/furniture-system/Furniture-System-HTML-Resources/details-furniture.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="10" lean-forward="true" selection-end-line="26" />
+          <caret line="5" column="10" selection-end-line="26" />
         </state>
       </provider>
     </entry>
@@ -416,20 +448,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/models/furniture.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/furniture-system/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+        <state relative-caret-position="34">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/furniture.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/navigation/navigation.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="61" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="49" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/furniture-system/src/app/app-routing.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+        <state relative-caret-position="179">
+          <caret line="19" column="90" selection-start-line="19" selection-start-column="90" selection-end-line="19" selection-end-column="90" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
             <element signature="e#113#167#0" expanded="true" />
@@ -437,30 +504,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/furniture.service.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/navigation/navigation.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="61" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        <state relative-caret-position="264">
+          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.html">
+    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/authentication/signin/signin.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="42" column="91" lean-forward="true" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
+        <state relative-caret-position="289">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>

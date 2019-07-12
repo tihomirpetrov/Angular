@@ -51,7 +51,7 @@
           <label class="form-control-label" for="new-material">Material (optional)</label>
           <input class="form-control" id="new-material" formControlName="material" type="text">
         </div>
-        <button type="submit" class="btn btn-primary" value="Create">Create</button>
+        <button type="submit" class="btn btn-primary" [disabled]="invalid">Create</button>
       </div>
     </div>
   </form>
