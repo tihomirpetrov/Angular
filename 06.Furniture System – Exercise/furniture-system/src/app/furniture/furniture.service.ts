@@ -1,8 +1,11 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
 import { Furniture } from "../models/furniture";
+import {Observable} from "rxjs";
 
 const createF = 'http://localhost:5000/furniture/create';
+const getAllF = 'http://localhost:5000/furniture/all';
+const getSingleF = 'http://localhost:5000/furniture/details';
 
 @Injectable({
   providedIn: 'root'
@@ -15,5 +18,13 @@ export class FurnitureService {
 
   createFurniture(data) {
     return this.http.post<Furniture>(createF, data);
+  }
+
+  getAllFurniture(): Observable<Array<Furniture>>{
+    return this.http.get<Array<Furniture>>(getAllF);
+  }
+
+  getFurniture(id): Observable<Furniture>{
+    return this.http.get<Furniture>(getSingleF + id);
   }
 }

@@ -9,7 +9,7 @@ import {Router} from "@angular/router";
   styleUrls: ['./create-furniture.component.css']
 })
 export class CreateFurnitureComponent implements OnInit {
-  form : FormGroup ;
+  form : FormGroup;
 
   constructor(private  fb: FormBuilder, private furnitureService: FurnitureService, private router : Router) { }
 
@@ -20,15 +20,15 @@ export class CreateFurnitureComponent implements OnInit {
       year: ['', [Validators.required, Validators.min(1950), Validators.max(2050)]],
       description: ['', [Validators.required, Validators.minLength(10)]],
       price: ['', [Validators.required, Validators.min(0.1)]],
-      imageUrl: ['', Validators.required],
-      material: ['', Validators.nullValidator]
+      image: ['', [Validators.required]],
+      material: ['', [Validators.nullValidator]]
     })
   }
 
   createFurniture() {
-    // console.log(this.form);
+    console.log(this.form);
     this.furnitureService.createFurniture(this.form.value).subscribe((data =>{
-      this.router.navigate(['/furniture/all'])
+      this.router.navigate(['/furniture/all']);
     }));
   }
 

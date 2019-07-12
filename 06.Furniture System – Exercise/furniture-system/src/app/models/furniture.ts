@@ -5,6 +5,6 @@ export interface Furniture {
   year: number;
   description: string;
   price: number;
-  imageUrl: string;
+  image: string;
   material: string;
 }
