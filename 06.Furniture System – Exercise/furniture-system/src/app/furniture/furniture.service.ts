@@ -5,7 +5,7 @@ import {Observable} from "rxjs";
 
 const createF = 'http://localhost:5000/furniture/create';
 const getAllF = 'http://localhost:5000/furniture/all';
-const getSingleF = 'http://localhost:5000/furniture/details';
+const getSingleF = 'http://localhost:5000/furniture/details/';
 
 @Injectable({
   providedIn: 'root'

@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {ActivatedRoute, Route} from "@angular/router";
+import {ActivatedRoute} from "@angular/router";
 import {FurnitureService} from "../furniture.service";
 import {Furniture} from "../../models/furniture";
 
