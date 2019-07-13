@@ -2,202 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29af169b-4f39-4ff4-aedc-80ee25315c9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/content-disposition/node_modules/safe-buffer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/content-disposition/node_modules/safe-buffer/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/content-disposition/node_modules/safe-buffer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/content-disposition/node_modules/safe-buffer/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/node_modules/safe-buffer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/node_modules/safe-buffer/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/node_modules/safe-buffer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/node_modules/safe-buffer/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/ipaddr.js/lib/ipaddr.js.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/mime/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/mime/src/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/raw-body/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/safer-buffer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/safer-buffer/Porting-Buffer.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/safer-buffer/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/safer-buffer/dangerous.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/safer-buffer/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/safer-buffer/safer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/safer-buffer/tests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/send/node_modules/ms/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/send/node_modules/ms/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/send/node_modules/ms/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/setprototypeof/test/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/toidentifier/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/toidentifier/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/toidentifier/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/toidentifier/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/utils-merge/.npmignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05.Forms, Directives and Pipes/test-app-forms" beforeDir="false" afterPath="$PROJECT_DIR$/../05.Forms, Directives and Pipes/test-app-forms" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/body-parser/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/body-parser/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/body-parser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/body-parser/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/body-parser/lib/read.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/body-parser/lib/read.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/body-parser/lib/types/json.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/body-parser/lib/types/json.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/body-parser/lib/types/text.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/body-parser/lib/types/text.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/body-parser/lib/types/urlencoded.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/body-parser/lib/types/urlencoded.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/body-parser/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/bytes/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/bytes/History.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/bytes/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/bytes/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/bytes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/bytes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/bytes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/bytes/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/content-disposition/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/content-disposition/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/content-disposition/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/content-disposition/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/content-disposition/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/content-disposition/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/content-disposition/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/content-disposition/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/content-disposition/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/content-disposition/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/cookie/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/cookie/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/cookie/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/cookie/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/cookie/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/cookie/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/cookie/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/cookie/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/debug/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/debug/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/debug/component.json" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/debug/component.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/debug/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/debug/src/browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/debug/src/browser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/debug/src/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/debug/src/node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/History.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/lib/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/lib/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/lib/express.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/lib/express.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/lib/middleware/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/lib/middleware/query.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/lib/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/lib/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/lib/response.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/lib/response.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/lib/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/lib/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/lib/router/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/lib/router/route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/lib/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/lib/view.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/lib/view.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/node_modules/setprototypeof/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/node_modules/setprototypeof/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/node_modules/setprototypeof/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/node_modules/setprototypeof/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/node_modules/statuses/HISTORY.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/node_modules/statuses/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/send/node_modules/ms/license.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/node_modules/statuses/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/node_modules/statuses/codes.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/node_modules/statuses/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/node_modules/statuses/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/node_modules/debug/.coveralls.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/node_modules/debug/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/node_modules/debug/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/node_modules/debug/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/node_modules/debug/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/node_modules/debug/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/node_modules/debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/node_modules/debug/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/node_modules/debug/component.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/node_modules/debug/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/node_modules/debug/node.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/node_modules/debug/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/node_modules/debug/src/browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/node_modules/debug/src/debug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/node_modules/debug/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/node_modules/debug/src/inspector-log.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/debug/src/inspector-log.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/node_modules/debug/src/node.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/node_modules/statuses/HISTORY.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/node_modules/statuses/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/content-disposition/node_modules/safe-buffer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/node_modules/statuses/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/node_modules/statuses/codes.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/node_modules/statuses/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/node_modules/statuses/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/finalhandler/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/fresh/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/fresh/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/fresh/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/fresh/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/fresh/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/fresh/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/fresh/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/fresh/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/http-errors/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/http-errors/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/http-errors/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/http-errors/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/http-errors/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/http-errors/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/http-errors/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/http-errors/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/Changelog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/encodings/dbcs-codec.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/encodings/dbcs-codec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/encodings/dbcs-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/encodings/dbcs-data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/encodings/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/encodings/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/encodings/internal.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/encodings/internal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/encodings/sbcs-codec.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/encodings/sbcs-codec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/encodings/sbcs-data-generated.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/encodings/sbcs-data-generated.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/encodings/sbcs-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/encodings/sbcs-data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/encodings/utf16.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/encodings/utf16.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/encodings/utf7.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/encodings/utf7.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/lib/bom-handling.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/lib/bom-handling.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/lib/extend-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/lib/extend-node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/lib/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/lib/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/lib/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/lib/streams.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/lib/streams.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/iconv-lite/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/ipaddr.js/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/ipaddr.js/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/ipaddr.js/Cakefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/ipaddr.js/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/ipaddr.js/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/ipaddr.js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/ipaddr.js/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/ipaddr.js/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/ipaddr.js/ipaddr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/ipaddr.js/ipaddr.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/ipaddr.js/lib/ipaddr.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/ipaddr.js/lib/ipaddr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/ipaddr.js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/ipaddr.js/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/ipaddr.js/src/ipaddr.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/ipaddr.js/test/ipaddr.test.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/mime/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/mime/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/mime/build/build.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/mime/build/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/mime/src/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/mime/mime.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/mime/mime.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/mime/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/mime/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/mime/types.json" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/mime/types.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/proxy-addr/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/proxy-addr/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/proxy-addr/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/proxy-addr/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/proxy-addr/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/proxy-addr/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/proxy-addr/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/proxy-addr/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/.jscs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/dist/qs.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/dist/qs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/lib/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/lib/parse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/lib/stringify.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/lib/stringify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/lib/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/test/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/test/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/test/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/test/parse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/test/stringify.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/test/stringify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/test/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/qs/test/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/raw-body/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/raw-body/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/raw-body/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/raw-body/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/raw-body/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/raw-body/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/raw-body/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/raw-body/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/send/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/send/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/send/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/send/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/send/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/send/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/send/node_modules/statuses/HISTORY.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/send/node_modules/statuses/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/express/node_modules/safe-buffer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/send/node_modules/statuses/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/send/node_modules/statuses/codes.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/send/node_modules/statuses/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/send/node_modules/statuses/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/send/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/send/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/serve-static/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/serve-static/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/serve-static/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/serve-static/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/serve-static/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/serve-static/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/serve-static/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/serve-static/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/setprototypeof/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/setprototypeof/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/setprototypeof/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/setprototypeof/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/setprototypeof/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/setprototypeof/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/utils-merge/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/utils-merge/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/utils-merge/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/utils-merge/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/utils-merge/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/utils-merge/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/node_modules/utils-merge/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/Furniture-System-Server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-details/furniture-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-details/furniture-details.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~$. Furniture-System-Workshop.docx" beforeDir="false" afterPath="$PROJECT_DIR$/~$. Furniture-System-Workshop.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$. Furniture-System-Workshop.docx" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -222,7 +29,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/furniture-system/src/app/app-routing.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="238">
               <caret line="22" column="97" selection-start-line="22" selection-start-column="97" selection-end-line="22" selection-end-column="97" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -235,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-details/furniture-details.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="187">
               <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
             </state>
           </provider>
@@ -244,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="493">
               <caret line="32" column="3" selection-start-line="27" selection-start-column="2" selection-end-line="32" selection-end-column="3" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
@@ -265,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/furniture-system/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+            <state relative-caret-position="264">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -277,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-details/furniture-details.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="255">
               <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
@@ -371,7 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -384,103 +190,11 @@
               <item name="06.Furniture System – Exercise" type="462c0819:PsiDirectoryNode" />
               <item name="furniture-system" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="06.Furniture System – Exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06.Furniture System – Exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="furniture-system" type="462c0819:PsiDirectoryNode" />
-              <item name="Furniture-System-HTML-Resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06.Furniture System – Exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06.Furniture System – Exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="furniture-system" type="462c0819:PsiDirectoryNode" />
-              <item name="Furniture-System-Server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06.Furniture System – Exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06.Furniture System – Exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="furniture-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06.Furniture System – Exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06.Furniture System – Exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="furniture-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06.Furniture System – Exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06.Furniture System – Exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="furniture-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="furniture" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06.Furniture System – Exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06.Furniture System – Exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="furniture-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="furniture" type="462c0819:PsiDirectoryNode" />
-              <item name="create-furniture" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06.Furniture System – Exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06.Furniture System – Exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="furniture-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="furniture" type="462c0819:PsiDirectoryNode" />
-              <item name="furniture-all" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06.Furniture System – Exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06.Furniture System – Exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="furniture-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="furniture" type="462c0819:PsiDirectoryNode" />
-              <item name="furniture-details" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06.Furniture System – Exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06.Furniture System – Exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="furniture-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="furniture" type="462c0819:PsiDirectoryNode" />
-              <item name="furniture-user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06.Furniture System – Exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06.Furniture System – Exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="furniture-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06.Furniture System – Exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06.Furniture System – Exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="furniture-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06.Furniture System – Exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06.Furniture System – Exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="furniture-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="navigation" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -520,18 +234,27 @@
       <option name="presentableId" value="Default" />
       <updated>1562922300562</updated>
       <workItem from="1562922311511" duration="33178000" />
-      <workItem from="1563003935211" duration="6029000" />
+      <workItem from="1563003935211" duration="8127000" />
+      <workItem from="1563045476804" duration="189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39207000" />
+    <option name="totallyTimeSpent" value="41494000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -540,11 +263,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329582" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.329582" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.329582" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.329582" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.329582" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -776,6 +499,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/furniture-system/Furniture-System-Server/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/furniture-system/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-all/furniture-all.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="16" selection-start-line="25" selection-start-column="1" selection-end-line="31" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="97" selection-start-line="22" selection-start-column="97" selection-end-line="22" selection-end-column="97" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#113#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-details/furniture-details.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="32" column="3" selection-start-line="27" selection-start-column="2" selection-end-line="32" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/models/furniture.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-details/furniture-details.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-user/furniture-user.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -783,6 +568,13 @@
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-user/furniture-user.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="65" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -796,79 +588,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-all/furniture-all.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="16" selection-start-line="25" selection-start-column="1" selection-end-line="31" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-details/furniture-details.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-user/furniture-user.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="65" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/app-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="97" selection-start-line="22" selection-start-column="97" selection-end-line="22" selection-end-column="97" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#113#167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-details/furniture-details.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="32" column="3" selection-start-line="27" selection-start-column="2" selection-end-line="32" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/furniture-system/Furniture-System-Server/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/furniture-system/angular.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/models/furniture.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/furniture-system/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+        <state relative-caret-position="264">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
