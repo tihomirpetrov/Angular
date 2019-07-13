@@ -48,7 +48,11 @@ import { FurnitureService } from "./furniture/furniture.service";
   providers: [ 
     AuthService,
     FurnitureService,
-    {provide: HTTP_INTERCEPTORS, useClass: JwtInterceptorService, multi: true}
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: JwtInterceptorService,
+      multi: true
+    }
   ],
   bootstrap: [AppComponent]
 })
