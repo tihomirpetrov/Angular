@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpEvent, HttpHandler, HttpInterceptor, HttpRequest} from "@angular/common/http";
+import {HttpEvent, HttpHandler, HttpInterceptor, HttpRequest, HttpResponse} from "@angular/common/http";
 import { Observable } from "rxjs";
 import { catchError, tap } from "rxjs/operators";
 import {ToastrService} from "ngx-toastr";
@@ -13,10 +13,16 @@ export class ResponseHandlerInterceptorService implements HttpInterceptor{
 
   intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
     return next.handle(req).pipe(tap((success)=>{
-      this.toastr.success('Success', 'Success')
+      if (success instanceof HttpResponse) {
+        if (success.url.endsWith('signin') || success.url.endsWith('signup') ||
+            success.url.endsWith('create') || success.url.includes('delete')){
+          this.toastr.success('Success', 'Success');
+        }
+      }
+      //console.log('success', success)
     }), catchError((error) =>{
       //console.log('from interceptor', error)
-      this.toastr.error(error.error.message, 'Error')
+      this.toastr.error(error.error.message, 'Error');
       throw error;
     }))
   }
