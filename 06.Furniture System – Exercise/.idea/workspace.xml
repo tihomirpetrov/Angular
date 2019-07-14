@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="29af169b-4f39-4ff4-aedc-80ee25315c9d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../05.Forms, Directives and Pipes/test-app-forms" beforeDir="false" afterPath="$PROJECT_DIR$/../05.Forms, Directives and Pipes/test-app-forms" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-system/src/app/furniture/furniture.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/src/app/furniture/furniture.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-details/furniture-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-details/furniture-details.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,6 +38,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-details/furniture-details.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/furniture-system/src/app/jwt-interceptor.service.ts">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/furniture-system/src/app/response-handler-interceptor.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="34">
+              <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -62,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/furniture.module.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -153,11 +162,11 @@
         <option value="$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-all/furniture-all.component.ts" />
         <option value="$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-all/furniture-all.component.html" />
         <option value="$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-details/furniture-details.component.ts" />
-        <option value="$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-details/furniture-details.component.html" />
         <option value="$PROJECT_DIR$/furniture-system/src/app/response-handler-interceptor.service.ts" />
         <option value="$PROJECT_DIR$/furniture-system/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/furniture-system/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/furniture-system/src/app/furniture/furniture.module.ts" />
+        <option value="$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-details/furniture-details.component.html" />
       </list>
     </option>
   </component>
@@ -207,6 +216,15 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="furniture" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="06.Furniture System – Exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06.Furniture System – Exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="furniture-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="furniture" type="462c0819:PsiDirectoryNode" />
+              <item name="furniture-details" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -252,12 +270,12 @@
       <workItem from="1562922311511" duration="33178000" />
       <workItem from="1563003935211" duration="8127000" />
       <workItem from="1563045476804" duration="189000" />
-      <workItem from="1563089370094" duration="6015000" />
+      <workItem from="1563089370094" duration="7022000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47509000" />
+    <option name="totallyTimeSpent" value="48516000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -524,13 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-details/furniture-details.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/create-furniture/create-furniture.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -578,26 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/jwt-interceptor.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="61" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/response-handler-interceptor.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/furniture-system/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -623,6 +614,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/jwt-interceptor.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="61" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/response-handler-interceptor.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/furniture.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -630,6 +641,13 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/furniture-system/src/app/furniture/furniture-details/furniture-details.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
         </state>
       </provider>
     </entry>
