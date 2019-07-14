@@ -19,9 +19,7 @@ export class ResponseHandlerInterceptorService implements HttpInterceptor{
           this.toastr.success('Success', 'Success');
         }
       }
-      //console.log('success', success)
     }), catchError((error) =>{
-      //console.log('from interceptor', error)
       this.toastr.error(error.error.message, 'Error');
       throw error;
     }))
