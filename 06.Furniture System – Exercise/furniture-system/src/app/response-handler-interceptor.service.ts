@@ -15,8 +15,8 @@ export class ResponseHandlerInterceptorService implements HttpInterceptor{
     return next.handle(req).pipe(tap((success)=>{
       this.toastr.success('Success', 'Success')
     }), catchError((error) =>{
-      console.log('from interceptor', error)
-      //this.toastr.error('')
+      //console.log('from interceptor', error)
+      this.toastr.error(error.error.message, 'Error')
       throw error;
     }))
   }
