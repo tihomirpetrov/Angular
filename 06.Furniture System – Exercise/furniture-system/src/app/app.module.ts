@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -16,11 +16,6 @@ import { AuthService } from './authentication/auth.service';
 import { ToastrModule } from "ngx-toastr";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { JwtInterceptorService } from "./jwt-interceptor.service";
-import { FurnitureAllComponent } from './furniture/furniture-all/furniture-all.component';
-import { FurnitureDetailsComponent } from './furniture/furniture-details/furniture-details.component';
-import { CreateFurnitureComponent } from './furniture/create-furniture/create-furniture.component';
-import { FurnitureUserComponent } from './furniture/furniture-user/furniture-user.component';
-import { FurnitureService } from "./furniture/furniture.service";
 import { ResponseHandlerInterceptorService } from "./response-handler-interceptor.service";
 
 @NgModule({
@@ -31,16 +26,11 @@ import { ResponseHandlerInterceptorService } from "./response-handler-intercepto
     SignupComponent,
     HomeComponent,
     DropdownDirective,
-    CollapseDirective,
-    FurnitureAllComponent,
-    FurnitureDetailsComponent,
-    CreateFurnitureComponent,
-    FurnitureUserComponent
+    CollapseDirective
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    ReactiveFormsModule,
     AppRoutingModule,
     HttpClientModule,
     ToastrModule.forRoot(),
@@ -48,7 +38,6 @@ import { ResponseHandlerInterceptorService } from "./response-handler-intercepto
   ],
   providers: [ 
     AuthService,
-    FurnitureService,
     {
       provide: HTTP_INTERCEPTORS,
       useClass: JwtInterceptorService,
