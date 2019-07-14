@@ -7,7 +7,6 @@ import {FurnitureUserComponent} from "./furniture-user/furniture-user.component"
 import {ReactiveFormsModule} from "@angular/forms";
 import {FurnitureService} from "./furniture.service";
 import {RouterModule} from "@angular/router";
-import {AuthGuard} from "../authentication/guards/auth.guard";
 
 @NgModule({
   imports: [
