@@ -1,0 +1,36 @@
+<div [formGroup]="form">
+
+  <div [ngSwitch]="question.controlType">
+
+    <!-- Input field -->
+    <div class="padding" *ngSwitchCase="'input'">
+      <mat-form-field [hintLabel]="question.hintLabel" class="full-width">
+        <input matInput [formControlName]="question.key" [id]="question.key" [type]="question.type" [placeholder]="question.label">
+      </mat-form-field>
+    </div>
+
+    <!-- Radio button -->
+    <div class="padding" *ngSwitchCase="'radio'">
+      <label>{{question.label}}</label>
+      <mat-radio-group [formControlName]="question.key">
+        <mat-radio-button *ngFor="let option of question.options " color="primary" class="side-margin" [value]="option.key">{{option.value}}</mat-radio-button>
+      </mat-radio-group>
+    </div>
+
+    <!-- Checkboxes -->
+    <div class="padding" *ngSwitchCase="'checkbox'">
+      <mat-checkbox class="side-margin" [formControlName]="question.key">{{question.label}}</mat-checkbox>
+    </div>
+
+    <!-- Dropdown -->
+    <mat-form-field *ngSwitchCase="'select'">
+      <mat-select [id]="question.key" [placeholder]="question.label" [formControlName]="question.key" [ngModel]="question.value">
+        <mat-option *ngFor="let option of question.options" [value]="option.key">
+          {{ option.value }}
+        </mat-option>
+      </mat-select>
+      <mat-hint>{{question.hintLabel }}</mat-hint>
+    </mat-form-field>
+
+  </div>
+</div>
