@@ -1,3 +1,3 @@
-export interface SlideLiveEvent {
+export interface SlidoLiveEvent {
   code: string;
 }
