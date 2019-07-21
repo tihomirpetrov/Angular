@@ -3,7 +3,7 @@
     <h1>Every Question Matters.</h1>
     <p>The Ultimate Q&A and Polling Platform for Company Meetings and Events</p>
   </div>
-  <form fxLayout="column" fxLayoutAlign="center center"[formGroup]="eventForm">
+  <form (ngSubmit)="displayLiveEvent()" fxLayout="column" fxLayoutAlign="center center"[formGroup]="eventForm">
     <mat-form-field appearance="outline">
       <mat-icon matPrefix>event</mat-icon>
       <mat-label>Enter event code</mat-label>

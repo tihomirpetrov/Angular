@@ -7,7 +7,7 @@ import {EventLiveComponent} from "./components/events/event-live/event-live.comp
 const routes: Routes = [
   {path: '', pathMatch: 'full', component: HomeComponent},
   {path: 'home', component: HomeComponent},
-  {path: 'event/:id', component: EventLiveComponent}
+  {path: 'event/:id/live', component: EventLiveComponent}
 
 ];
 
