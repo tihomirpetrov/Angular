@@ -85,7 +85,7 @@ export class QuestionService {
       new Checkbox(
         {
           controlType: 'checkbox',
-          key: 'f',
+          key: 'fishing',
           label: 'Fishing',
           value: false,
           checked: false,
@@ -96,7 +96,7 @@ export class QuestionService {
       new Checkbox(
         {
           controlType: 'checkbox',
-          key: 'c',
+          key: 'cooking',
           label: 'Cooking',
           value: false,
           checked: false,
