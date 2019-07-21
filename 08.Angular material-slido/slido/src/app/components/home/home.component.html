@@ -1,1 +1,16 @@
-<p>home works!</p>
+<section>
+  <div fxLayout="column" fxLayoutAlign="center center">
+    <h1>Every Question Matters.</h1>
+    <p>The Ultimate Q&A and Polling Platform for Company Meetings and Events</p>
+  </div>
+  <form fxLayout="column" fxLayoutAlign="center center"[formGroup]="eventForm">
+    <mat-form-field appearance="outline">
+      <mat-icon matPrefix>event</mat-icon>
+      <mat-label>Enter event code</mat-label>
+      <input formControlName="code" matInput type="text" placeholder="example: js-web">
+      <mat-hint>Please enter valid event code</mat-hint>
+      <mat-error>Enter event code.</mat-error>
+    </mat-form-field>
+    <button mat-raised-button [disabled]="eventForm.invalid" type="submit">Join</button>
+  </form>
+</section>

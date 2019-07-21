@@ -10,13 +10,19 @@ import {MatSidenavModule} from "@angular/material";
 import { SidebarListComponent } from './components/shared/sidebar-list/sidebar-list.component';
 import { ToolbarComponent } from './components/shared/toolbar/toolbar.component';
 import { HomeComponent } from './components/home/home.component';
+import { EventLiveComponent } from './components/events/event-live/event-live.component';
+import { EventPostQuestionComponent } from './components/events/event-post-question/event-post-question.component';
+import { EventQuestionInfoComponent } from './components/events/event-question-info/event-question-info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidebarListComponent,
     ToolbarComponent,
-    HomeComponent
+    HomeComponent,
+    EventLiveComponent,
+    EventPostQuestionComponent,
+    EventQuestionInfoComponent
   ],
   imports: [
     BrowserModule,
