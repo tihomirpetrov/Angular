@@ -2,6 +2,9 @@
   <app-event-post-question>
   </app-event-post-question>
 
-  <app-event-question-info fxLayout="column" fxLayoutGap="10px" fxLayoutAlign="center center">
+  <app-event-question-info fxLayout="column" fxLayoutGap="10px" fxLayoutAlign="center center"
+  *ngFor="let question of questions"
+  [questionInfo]="question">
+
   </app-event-question-info>
 </section>

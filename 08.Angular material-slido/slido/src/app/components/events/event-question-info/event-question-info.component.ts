@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {Question} from "../../shared/models/question-info.model";
 
 @Component({
   selector: 'app-event-question-info',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./event-question-info.component.css']
 })
 export class EventQuestionInfoComponent implements OnInit {
-  currentDate = new Date();
+  @Input() questionInfo: Question;
 
   constructor() { }
 
