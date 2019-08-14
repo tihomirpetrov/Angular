@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cafae3b1-1933-44ae-a98a-9f9fd2523af8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../05.Forms, Directives and Pipes/test-app-forms" beforeDir="false" afterPath="$PROJECT_DIR$/../05.Forms, Directives and Pipes/test-app-forms" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../08.Angular material/Angular-Sli.do" beforeDir="false" afterPath="$PROJECT_DIR$/../08.Angular material/Angular-Sli.do" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../08.Angular material/angular-form-builder" beforeDir="false" afterPath="$PROJECT_DIR$/../08.Angular material/angular-form-builder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../08.Angular material/angular-json-schema-form" beforeDir="false" afterPath="$PROJECT_DIR$/../08.Angular material/angular-json-schema-form" afterDir="false" />
@@ -118,7 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -266,15 +265,15 @@
       <workItem from="1563693284096" duration="27892000" />
       <workItem from="1563779229678" duration="580000" />
       <workItem from="1563794851454" duration="3833000" />
-      <workItem from="1563865239214" duration="547000" />
+      <workItem from="1563865239214" duration="551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36398000" />
+    <option name="totallyTimeSpent" value="36402000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
