@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Question} from "../../shared/models/question-info.model";
+import {Question} from '../../shared/models/question-info.model';
 
 @Component({
   selector: 'app-event-question-info',
@@ -9,7 +9,8 @@ import {Question} from "../../shared/models/question-info.model";
 export class EventQuestionInfoComponent implements OnInit {
   @Input() questionInfo: Question;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }

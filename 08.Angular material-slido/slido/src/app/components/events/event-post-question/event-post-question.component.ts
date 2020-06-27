@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import {FormBuilder, FormGroup, Validators} from "@angular/forms";
+import {Component, OnInit} from '@angular/core';
+import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 
 @Component({
   selector: 'app-event-post-question',
@@ -9,7 +9,8 @@ import {FormBuilder, FormGroup, Validators} from "@angular/forms";
 export class EventPostQuestionComponent implements OnInit {
   postQuestionForm: FormGroup;
 
-  constructor(private fb: FormBuilder) { }
+  constructor(private fb: FormBuilder) {
+  }
 
   ngOnInit() {
     this.postQuestionForm = this.fb.group({
@@ -18,7 +19,6 @@ export class EventPostQuestionComponent implements OnInit {
         Validators.minLength(6),
         Validators.maxLength(70)
       ]]
-    })
+    });
   }
-
 }

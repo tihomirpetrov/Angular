@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { FormBuilderModule } from './modules/form-builder/form-builder.module';
+import { FormBuilderModule } from 'angular-form-builder';
 
 import { AppComponent } from './app.component';
 

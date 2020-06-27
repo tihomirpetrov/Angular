@@ -1,7 +1,7 @@
-import { NgModule } from "@angular/core";
-import {CommonModule} from "@angular/common";
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
 
-import { MatMomentDateModule } from "@angular/material-moment-adapter";
+import {MatMomentDateModule} from '@angular/material-moment-adapter';
 import {
   MatButtonModule,
   MatCardModule,
@@ -18,7 +18,7 @@ import {
   MatSidenavModule,
   MatToolbarModule,
   MatSnackBarModule
-} from "@angular/material";
+} from '@angular/material';
 
 
 @NgModule({

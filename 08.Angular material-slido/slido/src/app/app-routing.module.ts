@@ -1,7 +1,7 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import {HomeComponent} from "./components/home/home.component";
-import {EventLiveComponent} from "./components/events/event-live/event-live.component";
+import {NgModule} from '@angular/core';
+import {Routes, RouterModule} from '@angular/router';
+import {HomeComponent} from './components/home/home.component';
+import {EventLiveComponent} from './components/events/event-live/event-live.component';
 
 
 const routes: Routes = [
@@ -15,4 +15,5 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+}
