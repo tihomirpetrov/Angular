@@ -27,7 +27,6 @@ export class ToolbarComponent implements OnInit, OnDestroy {
   }
 
   toggleSidenav() {
-    debugger;
     // this.toggle = !this.toggle;
   }
 
