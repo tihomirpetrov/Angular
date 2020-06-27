@@ -1,0 +1,39 @@
+<nb-card>
+  <nb-card-body>
+
+    <nb-actions size="medium">
+      <nb-action icon="search-outline"></nb-action>
+      <nb-action icon="power-outline"></nb-action>
+      <nb-action icon="person-outline" (click)="goToUsers()"></nb-action>
+      <nb-action icon="home-outline"></nb-action>
+      <nb-action [icon]="disabledIconConfig" disabled></nb-action>
+      <nb-action>
+        Custom Action
+      </nb-action>
+      <nb-action icon="search-outline"
+                 badgeText="99+"
+                 badgeStatus="danger">
+      </nb-action>
+      <nb-action icon="power-outline"
+                 badgeText="12"
+                 badgePosition="bottom right"
+                 badgeStatus="warning">
+      </nb-action>
+      <nb-action icon="person-outline"
+                 badgeText="M"
+                 badgePosition="top right"
+                 badgeStatus="info"
+                 (click)="goToAdmins()">
+      </nb-action>
+    </nb-actions>
+
+  </nb-card-body>
+</nb-card>
+<nb-card>
+  <nb-card-header>
+    <h1 class="h5">Selected range: {{ range.start | date }} - {{ range.end | date }}</h1>
+  </nb-card-header>
+  <nb-card-body>
+    <nb-calendar-range [(range)]="range"></nb-calendar-range>
+  </nb-card-body>
+</nb-card>

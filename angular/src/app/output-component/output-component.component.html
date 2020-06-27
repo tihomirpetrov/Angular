@@ -1,0 +1,17 @@
+<form>
+  <mat-form-field class='w-100'>
+    <input matInput name='egn_num' placeholder="{{'enter PIN' | translate}}" maxlength='10' required [(ngModel)]="egnNum">
+  </mat-form-field>
+
+  <button mat-button (click)='checkEgn()'>{{'check' | translate | titlecase}}</button>
+  <div *ngIf="invalidPin" class="alert alert-danger">
+    {{'invalid PIN' | translate}}!
+  </div>
+  <div *ngIf="gender" class="alert alert-success">
+    {{'gender' | translate}}: {{gender | translate}}
+  </div>
+  <div *ngIf="birthday" class="alert alert-success">
+    {{'birthday' | translate}}: {{birthday}}
+  </div>
+</form>
+<app-input-component [birthday]="birthday"></app-input-component>
